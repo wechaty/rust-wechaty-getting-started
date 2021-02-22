@@ -1,0 +1,16 @@
+[package]
+name = "rust-wechaty-getting-started"
+version = "0.1.0"
+authors = ["Gabriel Wu <qqbbnease1004@126.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dev-dependencies]
+actix-rt = "2.0"
+wechaty = "0.1.0-beta.0"
+wechaty-puppet-service = "0.1.0-beta.0"
+
+[[example]]
+name = "ding-dong-bot"
+path = "examples/ding_dong_bot.rs"
